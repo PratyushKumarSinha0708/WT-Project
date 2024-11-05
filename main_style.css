@@ -316,7 +316,7 @@ h3{
 
 /* Media query for responsive */
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
 
     *{
         overflow-x: hidden;

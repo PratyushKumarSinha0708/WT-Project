@@ -4,9 +4,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Online Pay Fees - GGU</title>
+  <title>Online Pay Fees - PUSSGRC</title>
   <link rel="shortcut icon" href="image/favicon.ico" type="image/svg+xml">
-  <link rel="stylesheet" href="css/fees_style.CSS">
+  <link rel="stylesheet" href="fees_style.CSS">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   
@@ -14,7 +14,10 @@
 <body>
   <section class="header">
     <nav>
-        <a href="index.html"><img src="image/logo.png" id="logo-img"></a>
+        <a href="index.html"><img src="logo.jpeg" style="border-radius: 100%;" id="logo-img"></a>
+        <a href="index.html"><h1 style="height: 100px; width: 100px; text-decoration: underline red; font-size: 30px; margin-left: 10px;
+          color: red;">PUNJAB UNIVERSITY</h1></a>
+
 
         <div class="nav-links" id="navLinks">
 
@@ -51,19 +54,22 @@
                   <i class="fa fa-bars" aria-hidden="true"id="icon" ></i>
                 <select id="course" name="cars" class="input" required>
                 <option value="select"> Select the Course</option>
-                <option value="bca" id="bcabatch"> BCA 2021-2022 Batch</option>
+                <option value="be-cse" id="bcabatch"> BE-CSE </option>
+                <option value="be-it" id="bcabatch"> BE-IT </option>
+                <option value="be-ece" id="bcabatch"> BE-ECE </option>
+                <option value="be-mech" id="bcabatch"> BE-MECH </option>
                 </select>
                 <br>
                 <br>
             
-                <label for="yourname">Your UID/Enrollment no</label>
+                <label for="yourname">Your RollNO</label>
                 <div class="input_item">
                 <!-- min="1" max="2" -->
                 <i class="fa fa-list-ol" aria-hidden="true"id="icon" ></i>
-                <input type="number"  class="input" id="uid" placeholder="Enter the last two UID digit" >
+                <input type="number"  class="input" id="uid" placeholder="Enter the numeric value of your roll no." >
               </div>
             </div>
-            <p id="uid_detail">Ex: FCAB2101101001 to enter the: 01</p>
+            <p id="uid_detail">Ex: SGM23360 to enter the: 23360</p>
             <input type="button" class="button" value="Get" onclick="getInputValue()">
 
             <br>
@@ -98,7 +104,7 @@
 </div>
 
 </body>
-<script src="javascript/fees_script.js"></script>
+<script src="fees_script.js"></script>
 <script>
   var navLinks= document.getElementById("navLinks");
 
