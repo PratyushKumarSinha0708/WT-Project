@@ -15,13 +15,14 @@
     }
     
     body{
-    background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.6)),url(../image/background.jpg);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.515),rgba(4, 9, 30, 0.515)),url(WhatsApp\ Image\ 2024-11-06\ at\ 00.44.14_1b4e27b4.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
     font-size: 14px;
     color: var(--text-clr);
     font-family: myFirstFont;
+    height: 100%;
     }
 
     /* Website Scrollerbar */
@@ -41,7 +42,7 @@
     .header{
         min-height: 100vh;
         width: 100%;
-        background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.6)),url(../image/background.jpg);
+        background-image: linear-gradient(rgba(4,9,30,0.515),rgba(4,9,30,0.515)),url(WhatsApp\ Image\ 2024-11-06\ at\ 00.44.14_1b4e27b4.jpg);
         background-position: center;
         background-size: cover;
         position: relative;
@@ -263,5 +264,3 @@
         width: 100%;
         overflow: hidden;
     } 
-
-
